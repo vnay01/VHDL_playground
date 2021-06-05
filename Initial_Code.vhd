@@ -1,13 +1,13 @@
 -- Even parity detector : 3 input
 library ieee;
-use ieee.std_logic_1164.all
+use ieee.std_logic_1164.all;
 
 -- entity declaration
 entity even_detector is
 	port(
 		a: in std_logic_vector(2 downto 0);
-		even : out std_logic ;
-		);
+		even : out std_logic);
+		
 	end even_detector;
 
 -- Architecture body using Truth Table of 3 input Parity detector
